@@ -1,0 +1,5 @@
+Host my_vds
+User root
+HostName 5.5.5.5
+
+
