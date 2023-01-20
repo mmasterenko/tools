@@ -1,0 +1,19 @@
+## rename this file into .gitconfig and put it at home dir
+[user]
+	email = mmasterenko@gmail.com
+	name = Maksim Masterenko
+[alias]
+	b = branch
+	go = checkout
+	ci = commit
+	st = status
+	d = diff
+	dc = diff --cached
+	unstage = reset HEAD --
+	last = log -1 HEAD --stat --patch
+	hist = log --graph --pretty=\"format:%Cred %h %Cblue [%aD] %Cgreen %s %Cblue [%an] %Cred %d\"
+[core]
+	editor = vim
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[push]
+	default = simple
